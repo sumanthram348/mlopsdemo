@@ -22,7 +22,7 @@ model = LinearRegression()
 model.fit(x_train,y_train)
 
 #save model
-filename = 'model/prediction_model.pkl'
+filename = 'model/rental_prediction_model.pkl'
 pickle.dump(model, open(filename,'wb'))
 
 #Evaluate model
